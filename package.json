@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-send-now",
+  "version": "0.1.0",
+  "description": "Claude Code-style Ctrl+Enter 'Send now' (interrupt + submit) for the OpenCode TUI",
+  "type": "module",
+  "license": "MIT",
+  "author": "Łukasz Okarmus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukas-tek-no-logic/opencode-send-now.git"
+  },
+  "keywords": [
+    "opencode",
+    "tui",
+    "plugin",
+    "claude-code",
+    "send-now",
+    "interrupt"
+  ],
+  "exports": {
+    ".": "./index.ts",
+    "./tui": "./tui.ts"
+  }
+}
